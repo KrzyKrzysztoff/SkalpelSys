@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SkalpelSys.Application\SkalpelSys.Application.csproj" />
-    <ProjectReference Include="..\SkalpelSys.Api\SkalpelSys.Api.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

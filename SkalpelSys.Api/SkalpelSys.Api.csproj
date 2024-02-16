@@ -4,17 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SkalpelSys.Contracts\SkalpelSys.Contracts.csproj" />
     <ProjectReference Include="..\SkalpelSys.Application\SkalpelSys.Application.csproj" />
+    <ProjectReference Include="..\SkalpelSys.Infrastructure\SkalpelSys.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
