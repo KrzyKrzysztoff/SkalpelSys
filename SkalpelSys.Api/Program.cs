@@ -1,4 +1,3 @@
-using SkalpelSys.Application.Services.Authentication;
 using SkalpelSys.Application;
 using SkalpelSys.Infrastructure;
 
@@ -8,9 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
     .AddApplication()
     .AddInfrastructure();  
 
-    builder.Services.AddControllers();
 }
-
 var app = builder.Build();
 {
     app.UseHttpsRedirection();
