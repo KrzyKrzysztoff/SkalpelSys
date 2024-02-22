@@ -1,6 +1,8 @@
+using SkalpelSys.Domain.Entities;
+
 namespace SkalpelSys.Application.Common.Authentication;
 
 public interface IJwtTokenGenerator
 {
-    string GenerateToken(Guid userId, string firstName, string lastName);
+    string GenerateToken(User user);
 }
